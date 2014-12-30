@@ -30,7 +30,7 @@ void draw_tile_map(void)
     int i, j;
     for(i = 0; i < MAP_HEIGHT; ++i)
         for(j = 0; j < MAP_WIDTH; ++j)
-            draw_tile(RQ1forestisland, RQ1forestisland_map[i][j], (j + 4) * TILE_WIDTH, (i + 3) * TILE_HEIGHT);
+            draw_tile(RQ1forestisland, RQ1forestisland_map[i][j], j * TILE_WIDTH, i * TILE_HEIGHT);
 }
 
 int main(void)
