@@ -1,0 +1,3 @@
+These FMP files were made by DJ Omnimaga for Reuben CSE and used with his permission
+
+The TXT files are exports of the map data, not sprite data. Sprite data is exported as BMP files and converted to n2DLib format. The results of both the map data and sprite data conversions get placed in the .h files.
