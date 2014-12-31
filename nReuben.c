@@ -51,5 +51,4 @@ int main(void)
 			keep_playing = 0;
 	}
 	deinitBuffering();
-	updateScreen();
 }
